@@ -22,15 +22,6 @@ const App = () => {
     { field: "make" },
     { field: "model" },
     { field: "price" },
-    { field: "student", minWidth: 150 },
-    {
-      field: "result",
-      valueGetter: (params) => params.data.price,
-      cellRendererSelector: (params) => {
-        // console.log(params);
-        return null;
-      },
-    },
   ]);
 
   return (
